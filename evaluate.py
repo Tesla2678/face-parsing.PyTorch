@@ -56,7 +56,8 @@ def vis_parsing_maps(im, parsing_anno, stride, save_im=False, save_path='vis_res
 
     # return vis_im
 
-def evaluate(respth='./res/test_res', dspth='./data', cp='model_final_diss.pth'):
+# def evaluate(respth='./res/test_res', dspth='./data', cp='model_final_diss.pth'):
+def evaluate(respth='./res/test_res', dspth='./data', cp='79999_iter.pth'):
 
     if not os.path.exists(respth):
         os.makedirs(respth)
